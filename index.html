@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <title>Ritikaa Mishra | Data Analyst Portfolio</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/8b3c8f8f4a.js" crossorigin="anonymous"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <div id="header">
+
+        <div class="container">
+
+            <nav>
+
+                <ul id="sidemenu">
+
+                    <li>
+                        <a href="#header">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+
+                    <li>
+                        <a href="#skills">Skills</a>
+                    </li>
+
+                    <li>
+                        <a href="#portfolio">Projects</a>
+                    </li>
+
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+
+                </ul>
+
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+
+            </nav>
+
+
+            <div class="header-text">
+
+                <p>Data Analyst</p>
+
+                <h1>
+                    Hi, I'm <span>Ritikaa</span><br>
+                    Mishra
+                </h1>
+
+                <div class="hero-line"></div>
+
+                <p class="hero-description">
+                    Turning data into meaningful insights through
+                    analysis, visualization and problem-solving.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- ================= ABOUT ================= -->
+
+    <div id="about">
+
+        <div class="container">
+
+            <div class="about-content">
+
+                <div class="about-text">
+
+                    <h2 class="sub-title">
+                        About Me
+                    </h2>
+
+                    <p class="about-description">
+                        I'm an Artificial Intelligence graduate with a strong
+                        interest in Data Analytics. I enjoy working with data
+                        to clean, analyze, visualize, and uncover meaningful
+                        insights.
+                        Currently, I work as a Data Analyst, where I
+                        work on data cleaning, analysis, visualization, and
+                        problem-solving tasks.
+                    </p>
+
+                    <!-- Tabs -->
+
+                    <div class="tab-titles">
+
+                        <p class="tab-links active-link"
+                            onclick="opentab('skills-tab', this)">
+                            Skills
+                        </p>
+
+                        <p class="tab-links"
+                            onclick="opentab('experience-tab', this)">
+                            Experience
+                        </p>
+
+                        <p class="tab-links"
+                            onclick="opentab('education-tab', this)">
+                            Education
+                        </p>
+
+                    </div>
+
+
+                    <!-- Skills Tab -->
+
+                    <div class="tab-contents active-tab" id="skills-tab">
+
+                        <ul>
+
+                            <li>
+                                <span>Data Analysis</span>
+                                <br>
+                                Data Cleaning, Data Wrangling, EDA & Business Insights
+                            </li>
+
+                            <li>
+                                <span>Programming</span>
+                                <br>
+                                Python, Pandas, NumPy
+                            </li>
+
+                            <li>
+                                <span>Database</span>
+                                <br>
+                                SQL & MySQL
+                            </li>
+
+                            <li>
+                                <span>Visualization</span>
+                                <br>
+                                Power BI, Matplotlib & Seaborn
+                            </li>
+
+                            <li>
+                                <span>Tools</span>
+                                <br>
+                                Excel, Jupyter Notebook, VS Code, Git & GitHub
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+
+                    <!-- Experience Tab -->
+
+                    <div class="tab-contents" id="experience-tab">
+
+                        <ul>
+
+                            <li>
+                                <span>Data Analyst</span>
+                                <br>
+                                Working on data cleaning, analysis,
+                                visualization and analytical tasks.
+                            </li>
+
+                            <li>
+                                <span>Junior Software Developer / UI Developer</span>
+                                <br>
+                                Front-end development using Angular,
+                                TypeScript, HTML, CSS and Bootstrap.
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+
+                    <!-- Education Tab -->
+
+                    <div class="tab-contents" id="education-tab">
+
+                        <ul>
+
+                            <li>
+                                <span>2021 - 2025</span>
+                                <br>
+                                B.Tech in Artificial Intelligence
+                            </li>
+
+                            <li>
+                                <span>Specialization</span>
+                                <br>
+                                Data Analytics, Python, SQL & Power BI
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- ================= SKILLS ================= -->
+
+    <div id="skills">
+
+        <div class="container">
+
+            <h2 class="sub-title">
+                My Skills
+            </h2>
+
+
+            <div class="skills-list">
+
+
+                <!-- Card 1 -->
+
+                <div class="skill-card">
+
+                    <i class="fas fa-chart-line"></i>
+
+                    <h3>
+                        Data Analysis
+                    </h3>
+
+                    <p>
+                        Cleaning, transforming and analyzing data
+                        to identify trends, patterns and meaningful
+                        business insights.
+                    </p>
+
+                </div>
+
+
+                <!-- Card 2 -->
+
+                <div class="skill-card">
+
+                    <i class="fas fa-database"></i>
+
+                    <h3>
+                        SQL & MySQL
+                    </h3>
+
+                    <p>
+                        Writing SQL queries using joins, subqueries,
+                        aggregate functions and window functions
+                        to analyze data.
+                    </p>
+
+                </div>
+
+
+                <!-- Card 3 -->
+
+                <div class="skill-card">
+
+                    <i class="fab fa-python"></i>
+
+                    <h3>
+                        Python & Pandas
+                    </h3>
+
+                    <p>
+                        Using Python, Pandas and NumPy for data
+                        cleaning, manipulation, exploratory analysis
+                        and problem-solving.
+                    </p>
+
+                </div>
+
+
+                <!-- Card 4 -->
+
+                <div class="skill-card">
+
+                    <i class="fas fa-chart-bar"></i>
+
+                    <h3>
+                        Power BI
+                    </h3>
+
+                    <p>
+                        Creating interactive dashboards and reports
+                        to present data clearly and communicate
+                        useful business insights.
+                    </p>
+
+                </div>
+
+
+                <!-- Card 5 -->
+
+                <div class="skill-card">
+
+                    <i class="fas fa-file-excel"></i>
+
+                    <h3>
+                        Excel
+                    </h3>
+
+                    <p>
+                        Working with formulas, data cleaning,
+                        pivot tables and charts to organize
+                        and understand data.
+                    </p>
+
+                </div>
+
+
+                <!-- Card 6 -->
+
+                <div class="skill-card">
+
+                    <i class="fas fa-chart-pie"></i>
+
+                    <h3>
+                        Data Visualization
+                    </h3>
+
+                    <p>
+                        Creating meaningful visualizations using
+                        Power BI, Matplotlib and Seaborn to
+                        communicate insights effectively.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- ================= PROJECTS ================= -->
+
+    <div id="portfolio">
+
+        <div class="container">
+
+            <h2 class="sub-title">
+                My Work
+            </h2>
+
+
+            <div class="work-list">
+
+
+                <!-- PROJECT 1 -->
+
+                <div class="work">
+
+                    <img src="images/project1.png"
+                        alt="Retail Sales Data Analysis">
+
+                    <div class="layer">
+
+                        <span class="project-number">
+                            01
+                        </span>
+
+                        <h3>
+                            Retail Sales Data Analysis
+                        </h3>
+
+                        <p>
+                            Exploratory data analysis of retail sales
+                            data using Python, Pandas, NumPy and
+                            Matplotlib to identify sales trends,
+                            category performance and customer insights.
+                        </p>
+
+                        <div class="project-tags">
+
+                            <span>Python</span>
+                            <span>Pandas</span>
+                            <span>EDA</span>
+
+                        </div>
+
+                        <a href="https://github.com/ritikaa13/retail-sales-eda-python"
+                            target="_blank">
+
+                            <i class="fas fa-arrow-up-right-from-square"></i>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- PROJECT 2 -->
+
+                <div class="work">
+
+                    <img src="images/project2.png"
+                        alt="Customer Purchase Analytics">
+
+                    <div class="layer">
+
+                        <span class="project-number">
+                            02
+                        </span>
+
+                        <h3>
+                            Customer Purchase Analytics
+                        </h3>
+
+                        <p>
+                            End-to-end customer analytics project
+                            using Excel, MySQL and Power BI, including
+                            RFM segmentation, cohort analysis, CLV
+                            analysis and churn analytics.
+                        </p>
+
+                        <div class="project-tags">
+
+                            <span>Excel</span>
+                            <span>MySQL</span>
+                            <span>Power BI</span>
+
+                        </div>
+
+                        <a href="https://github.com/ritikaa13/end-to-end-customer-purchase-analytics"
+                            target="_blank">
+
+                            <i class="fas fa-arrow-up-right-from-square"></i>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- PROJECT 3 -->
+
+                <div class="work">
+
+                    <img src="images/project3.png"
+                        alt="Store Sales SQL Analysis">
+
+                    <div class="layer">
+
+                        <span class="project-number">
+                            03
+                        </span>
+
+                        <h3>
+                            Store Sales SQL Analysis
+                        </h3>
+
+                        <p>
+                            Store sales analysis using SQL and MySQL
+                            Workbench to explore sales performance,
+                            products, customers and business trends.
+                        </p>
+
+                        <div class="project-tags">
+
+                            <span>SQL</span>
+                            <span>MySQL</span>
+                            <span>Analytics</span>
+
+                        </div>
+
+                        <a href="https://github.com/ritikaa13/store-sales-sql-analysis"
+                            target="_blank">
+
+                            <i class="fas fa-arrow-up-right-from-square"></i>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- <a href="https://github.com/ritikaa13"
+                target="_blank"
+                class="btn">
+
+                View GitHub
+
+            </a> -->
+
+        </div>
+
+    </div>
+
+
+    <!-- ================= CONTACT ================= -->
+
+    <div id="contact">
+
+        <div class="container">
+
+            <div class="row">
+
+
+                <!-- LEFT -->
+
+                <div class="contact-left">
+
+                    <h2 class="sub-title">
+                        Contact Me
+                    </h2>
+
+                    <p class="contact-description">
+                        I'm open to opportunities in Data Analytics
+                        and related roles. If you'd like to discuss a
+                        project, job opportunity, or collaboration,
+                        feel free to get in touch.
+                    </p>
+
+
+                    <!-- Email -->
+
+                    <p class="contact-info">
+
+                        <i class="fas fa-envelope"></i>
+
+                        <a href="mailto:ritikaamishra15@gmail.com">
+                            ritikaamishra15@gmail.com
+                        </a>
+
+                    </p>
+
+
+                    <!-- Phone -->
+
+                    <p class="contact-info">
+
+                        <i class="fas fa-phone"></i>
+
+                        <a href="tel:+917823840544">
+                            +91 7823840544
+                        </a>
+
+                    </p>
+
+
+                    <!-- Social Icons -->
+
+                    <div class="social-icons">
+
+                        <!-- LinkedIn -->
+
+                        <a href="https://www.linkedin.com/in/ritikaamishra/"
+                            target="_blank"
+                            aria-label="LinkedIn">
+
+                            <i class="fab fa-linkedin"></i>
+
+                        </a>
+
+
+                        <!-- GitHub -->
+
+                        <a href="https://github.com/ritikaa13"
+                            target="_blank"
+                            aria-label="GitHub">
+
+                            <i class="fab fa-github"></i>
+
+                        </a>
+
+                    </div>
+
+
+                    <!-- CV -->
+
+                    <a href="images/Ritikaa_Mishra_Data_Analyst_Resume.pdf"
+                        download
+                        class="btn btn2">
+
+                        Download CV
+
+                    </a>
+
+                </div>
+
+
+                <!-- RIGHT -->
+
+                <div class="contact-right">
+
+                    <form name="submit-to-google-sheet">
+
+                        <input type="text"
+                            name="Name"
+                            placeholder="Your Name"
+                            required>
+
+                        <input type="email"
+                            name="Email"
+                            placeholder="Your Email"
+                            required>
+
+                        <textarea name="Message"
+                            rows="6"
+                            placeholder="Your Message"
+                            required></textarea>
+
+                        <button type="submit"
+                            class="btn btn2">
+
+                            Submit
+
+                        </button>
+
+                    </form>
+
+                    <span id="msg"></span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Footer -->
+
+        <div class="copyright">
+
+            <p>
+                Made by
+                <span>Ritikaa Mishra</span>
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- ================= JAVASCRIPT ================= -->
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+
+        function opentab(tabname, element) {
+
+            for (var tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+
+            for (var tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+
+            element.classList.add("active-link");
+
+            document.getElementById(tabname)
+                .classList.add("active-tab");
+
+        }
+
+
+        var sidemenu = document.getElementById("sidemenu");
+
+
+        function openmenu() {
+
+            sidemenu.style.right = "0";
+
+        }
+
+
+        function closemenu() {
+
+            sidemenu.style.right = "-220px";
+
+        }
+
+    </script>
+
+</body>
+
+</html>
